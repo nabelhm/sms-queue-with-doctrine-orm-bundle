@@ -17,6 +17,7 @@
         <service id="cubalider_sms_queue.message_manager" class="Cubalider\Component\Sms\Manager\MessageManager">
             <argument type="service" id="doctrine.orm.entity_manager" />
             <argument>%cubalider_sms_queue.entity.message.class%</argument>
+            <argument type="service" id="cubalider_sms_queue.bulk_manager" />
         </service>
     </services>
 </container>
