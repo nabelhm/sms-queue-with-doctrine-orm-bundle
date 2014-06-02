@@ -5,6 +5,9 @@ namespace Cubalider\SmsQueueBundle\Tests\DependencyInjection;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Cubalider\Bundle\SmsQueueBundle\DependencyInjection\CubaliderSmsQueueExtension;
 
+/**
+ * @author Nabel Hernandez <nabelhm@cubalider.com>
+ */
 class CubaliderSmsQueueExtensionTest extends \PHPUnit_Framework_TestCase
 {
     /**

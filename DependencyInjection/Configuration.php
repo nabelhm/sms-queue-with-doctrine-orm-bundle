@@ -5,6 +5,9 @@ namespace Cubalider\Bundle\SmsQueueBundle\DependencyInjection;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
+/**
+ * @author Nabel Hernandez <nabelhm@cubalider.com>
+ */
 class Configuration implements ConfigurationInterface
 {
     /**
