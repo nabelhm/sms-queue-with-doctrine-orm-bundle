@@ -8,6 +8,9 @@ use Symfony\Component\Config\Definition\Processor;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
+/**
+ * @author Nabel Hernandez <nabelhm@cubalider.com>
+ */
 class CubaliderSmsQueueExtension extends Extension
 {
     /**
