@@ -9,9 +9,10 @@ use Symfony\Component\DependencyInjection\Reference;
 
 class DoctrineMappingPass implements CompilerPassInterface
 {
-    /**
-     * {@inheritDoc}
-     */
+   
+   /**
+    * @author Yosmany Garcia <yosmanyga@gmail.com>
+    */
     public function process(ContainerBuilder $container)
     {
         $definition = new Definition('Doctrine\ORM\Mapping\Driver\XmlDriver', array(array(
